@@ -12,6 +12,14 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="https://ads-partners.coupang.com/g.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6FLV174YRH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-6FLV174YRH');
+    </script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -104,13 +112,5 @@
     <button class="reload rounded-circle bg-dark border-0 p-3">
         <i class="fa fa-2x fa-redo-alt text-white"></i>
     </button>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6FLV174YRH"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-6FLV174YRH');
-    </script>
 </body>
 </html>
